@@ -5,7 +5,7 @@
 👨‍💻Utilized Multinomial Logistic Regression for accurate disease prediction and implemented decision trees for tailored doctor suggestions.
 
 
-## Home Page
+## Homepage
 ![Homepage](https://github.com/MAMTA137/HealthScanPro/assets/102024852/e11209dc-d195-4f53-8e49-e7998444c28e)
 
 ## Doctors Dashboard
