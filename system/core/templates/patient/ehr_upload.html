@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Image Upload</title>
+<!-- Your CSS styles here -->
+</head>
+<body>
+<div class="container">
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="uploadButton">Upload</button>
+    <div id="suggestions" class="card col-sm-10 offset-sm-2 " style="background: #90EE90; border-radius: 2px ; border-radius: 5px ;border:3px solid green "></div>
+
+</div>
+
+<script>
+    const imageInput = document.getElementById('imageInput');
+    const uploadButton = document.getElementById('uploadButton');
+    const suggestionsContainer = document.getElementById('suggestions');
+
+    uploadButton.addEventListener('click', function() {
+        const file = imageInput.files[0];
+        if (file) {
+            const formData = new FormData();
+            formData.append('image', file);
+
+            fetch('', { 
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Data from backend:', data);
+                // Clear previous suggestions
+                suggestionsContainer.innerHTML = '';
+            
+                // Check if data.remedies is an array
+                if (Array.isArray(data.remedies)) {
+                    // Display the remedies
+                    data.remedies.forEach(remedy => {
+                        const textNode = document.createTextNode(remedy);
+                        suggestionsContainer.appendChild(textNode);
+                        suggestionsContainer.appendChild(document.createElement('br')); // Add line break between remedies
+                    });
+                } else {
+                    suggestionsContainer.textContent = 'No remedies found.';
+                }
+                
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+        } else {
+            console.error('No file selected.');
+        }
+    });
+</script>
+
+</body>
+</html>
