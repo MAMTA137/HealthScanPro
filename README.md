@@ -9,25 +9,31 @@
 ![Homepage](https://github.com/MAMTA137/HealthScanPro/assets/102024852/e11209dc-d195-4f53-8e49-e7998444c28e)
 
 ## Doctors Dashboard
-![Doctor Dashboard](https://github.com/MAMTA137/HealthScanPro/assets/102024852/5de8c103-e067-4957-9ac8-58273beee705)
+![Doctor Dashboard](https://github.com/MAMTA137/HealthScanPro/assets/102024852/30e178ea-5037-4d42-a634-25745349e712)
+
 
 ## Arrange Appointment for requested patients
-![dr  arrange appointment ](https://github.com/MAMTA137/HealthScanPro/assets/102024852/744168a1-bf29-408b-8581-b55299320d2f)
+![dr  arrange appointment ](https://github.com/MAMTA137/HealthScanPro/assets/102024852/c192376c-1502-4f61-8431-d358bcf5c410)
+
 
 ## Pateints Dashboard
-![patients dashboard](https://github.com/MAMTA137/HealthScanPro/assets/102024852/e84ad5b8-bb42-4ff4-96db-db562683af4e)
+![patients dashboard](https://github.com/MAMTA137/HealthScanPro/assets/102024852/23ad6630-349c-4e1a-b90a-9c960e1d4ff7)
+
 
 ## List of Patients Diseases Diagnosed
-![patient-list of disease diagnosed](https://github.com/MAMTA137/HealthScanPro/assets/102024852/5a70974e-e0f6-40c7-b4ed-77f6ef28691e)
+![patient-list of disease diagnosed](https://github.com/MAMTA137/HealthScanPro/assets/102024852/073da813-6e40-4dcd-9365-b33daa407beb)
+
 
 ## Disease Prediction
-![patient disease prediction](https://github.com/MAMTA137/HealthScanPro/assets/102024852/c53a2c9f-a571-4fbc-a6b7-6b81cc1e5439)
+![patient disease prediction](https://github.com/MAMTA137/HealthScanPro/assets/102024852/7ab294ae-ac91-4eff-8de0-786b98d8844f)
+
 
 ## Summary of Report
-![patient   summary of report](https://github.com/MAMTA137/HealthScanPro/assets/102024852/5c0d174b-d536-4edf-9a17-958a21d8865b)
+![patient   summary of report](https://github.com/MAMTA137/HealthScanPro/assets/102024852/7f9230db-e625-4040-af61-b784f655f9c9)
+
 
 ## Government schemes
-![Goverment-Scheme](https://github.com/MAMTA137/HealthScanPro/assets/102024852/0a19fa58-e2bb-44e5-a9ba-10569c609487)
+![Goverment-Scheme](https://github.com/MAMTA137/HealthScanPro/assets/102024852/8f8eb916-8293-403a-84e4-b40d32d0339b)
 
 
 
